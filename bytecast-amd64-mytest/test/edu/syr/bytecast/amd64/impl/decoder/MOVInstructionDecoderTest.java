@@ -1,22 +1,17 @@
 package edu.syr.bytecast.amd64.impl.decoder;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 import edu.syr.bytecast.amd64.api.constants.InstructionType;
 import edu.syr.bytecast.amd64.api.constants.RegisterType;
 import edu.syr.bytecast.amd64.api.instruction.IInstruction;
 import static edu.syr.bytecast.amd64.impl.decoder.TestUtils.*;
 import java.util.Arrays;
-import org.junit.Ignore;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  *
  * @author sheng
  */
-@Ignore
 public class MOVInstructionDecoderTest {
 
     /**
@@ -80,6 +75,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine48() {
         //TODO how to present "0x0(%rip)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -110,6 +106,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine76() {
         //TODO how to present "0x0(%rip)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -118,6 +115,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine84() {
         //TODO how to present "0x0(%rip)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -126,6 +124,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine86() {
         //TODO how to present "0x0(%rip)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -134,6 +133,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine89() {
         //TODO how to present "0x0(%rip)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -175,6 +175,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine136() {
         //TODO how to present "-0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -183,6 +184,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine137() {
         //TODO how to present "-0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -191,6 +193,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine140() {
         //TODO how to present "-0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -199,6 +202,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine141() {
         //TODO how to present "-0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -207,6 +211,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine142() {
         //TODO how to present "-0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -215,6 +220,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine143() {
         //TODO how to present "-0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -291,6 +297,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine162() {
         //TODO how to present "0x8(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -299,6 +306,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine163() {
         //TODO how to present "0x8(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -307,6 +315,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine164() {
         //TODO how to present "0x8(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -315,6 +324,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine165() {
         //TODO how to present "0x8(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -323,6 +333,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine166() {
         //TODO how to present "0x8(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -331,6 +342,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine167() {
         //TODO how to present "0x8(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -339,6 +351,7 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine183() {
         //TODO how to present "0x28(%rsp)"?
+        throw new UnsupportedOperationException("TODO");
     }
 
     /**
@@ -358,5 +371,6 @@ public class MOVInstructionDecoderTest {
     @Test
     public void testObjectdumpLine190() {
         //TODO how to present "(%rbx)"?
+        throw new UnsupportedOperationException("TODO");
     }
 }
