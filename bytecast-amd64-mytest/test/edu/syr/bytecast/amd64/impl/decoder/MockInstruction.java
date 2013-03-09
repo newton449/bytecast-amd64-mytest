@@ -14,7 +14,6 @@ import java.util.List;
  * @author sheng
  */
 public class MockInstruction implements IInstruction {
-    
 
     private List<IOperand> operands;
     private String opCode;
@@ -37,17 +36,12 @@ public class MockInstruction implements IInstruction {
     }
 
     @Override
-    public void addOperand(IOperand op) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    @Override
-    public void setOpCode(String opcode) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    @Override
     public InstructionType getInstructiontype() {
         return instructionType;
+    }
+
+    @Override
+    public long getInstructionMemoryAddress() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

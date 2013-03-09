@@ -10,7 +10,7 @@ import java.io.ByteArrayOutputStream;
  *
  * @author sheng
  */
-public class DecoderTestUtils {
+public class ParserTestUtils {
 
     public static byte[] stringToByteArray(String str) {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
